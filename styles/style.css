@@ -12,7 +12,7 @@
   padding: 10px;
   color: #005fac;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@
   text-align: right;
   color: #151414;
   padding: 215px 70px 160px 0;
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 .banner-title {
   font-weight: 700;
@@ -34,15 +34,48 @@ margin-bottom: 100px;
   margin-top: 24px;
   margin-bottom: 34px;
 }
-.banner-btn{
-  color: #FFFFFF;
+.banner-btn {
+  color: #ffffff;
   border: 0;
   border-radius: 5px;
   font-weight: 300;
   font-size: 20px;
   padding: 10px;
-  background: #F15B22;
+  background: #f15b22;
 }
-.banner-btn:hover{
+.banner-btn:hover {
   cursor: pointer;
+}
+
+/* My failures */
+.my-failures {
+  padding: 0 250px;
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  margin: 0 auto 100px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.my-failures ol li {
+  list-style-type: square;
+}
+
+/* My Plans */
+.plan-section {
+  text-align: center;
+}
+.plan-section > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.plans{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
