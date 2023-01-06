@@ -104,6 +104,7 @@
 .mindset {
   background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
     url("../images/watch.png");
+    background-repeat: no-repeat;
   margin: 0 130px 100px;
   border-radius: 8px;
   padding: 60px 64px;
