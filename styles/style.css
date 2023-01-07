@@ -48,13 +48,25 @@
   cursor: pointer;
 }
 
+/* Hero section */
+.hero{
+  margin-bottom: 100px;
+}
+.hero-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
 /* My failures */
 .my-failures {
-  padding: 0 250px;
   display: flex;
+  justify-content: center;
   gap: 90px;
   align-items: center;
-  margin: 0 auto 100px;
+  margin: 0 100px 100px;
 }
 .failure-title {
   font-weight: 700;
@@ -62,15 +74,16 @@
   color: #151414;
 }
 .my-failures ol li {
-  list-style-type: square;
+  list-style-image: url('../images/icons/check-mark1.png');
+  margin-top: 5px;
 }
 
 /* My Plans */
 .plan-section {
   margin-bottom: 100px;
+  text-align: center;
 }
 .plan-section > h1 {
-  text-align: center;
   font-size: 40px;
   font-weight: 700;
   color: #151414;
@@ -84,10 +97,11 @@
 .plan {
   box-shadow: 5px 5px 10px gray;
   border-radius: 20px;
-  padding: 10px;
+  padding: 10px 20px;
+  text-align: center;
 }
 .plan img {
-  width: 90px;
+  height: 90px;
 }
 .plan-name {
   font-weight: 700;
