@@ -62,7 +62,7 @@
   color: #151414;
 }
 .my-failures ol li {
-  list-style-image: url("../images/icons/check-mark1.png");
+  list-style-image: url("../images/icons/check-mark.png");
   margin-top: 5px;
 }
 
