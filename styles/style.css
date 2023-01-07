@@ -48,18 +48,6 @@
   cursor: pointer;
 }
 
-/* Hero section */
-.hero{
-  margin-bottom: 100px;
-}
-.hero-title{
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  color: #151414;
-  margin-bottom: 50px;
-}
-
 /* My failures */
 .my-failures {
   display: flex;
@@ -74,51 +62,15 @@
   color: #151414;
 }
 .my-failures ol li {
-  list-style-image: url('../images/icons/check-mark1.png');
+  list-style-image: url("../images/icons/check-mark1.png");
   margin-top: 5px;
-}
-
-/* My Plans */
-.plan-section {
-  margin-bottom: 100px;
-  text-align: center;
-}
-.plan-section > h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #151414;
-  margin-bottom: 50px;
-}
-.plans {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-.plan {
-  box-shadow: 5px 5px 10px gray;
-  border-radius: 20px;
-  padding: 10px 20px;
-  text-align: center;
-}
-.plan img {
-  height: 90px;
-}
-.plan-name {
-  font-weight: 700;
-  font-size: 30px;
-  margin: 15px 0;
-}
-.plan-work {
-  font-size: 25px;
-  font-weight: 500;
-  color: #737272;
 }
 
 /* positive mindset */
 .mindset {
   background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
     url("../images/watch.png");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   margin: 0 130px 100px;
   border-radius: 8px;
   padding: 60px 64px;
@@ -127,42 +79,4 @@
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
-}
-
-/* footer */
-.footer {
-  display: flex;
-  gap: 300px;
-  background-color: #151414;
-  padding: 130px 200px;
-  color: #ffffff;
-}
-.footer-title {
-  font-weight: 700;
-  font-size: 45px;
-}
-.footer-details {
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-.footer .phone {
-  margin: 20px 0;
-}
-.social-icons {
-  display: flex;
-  gap: 20px;
-}
-.sub {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 25px;
-}
-.email-inp {
-  background: #151414;
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  padding: 15px;
-  margin: 20px 0;
-  font-size: 25px;
-  color: #FFFFFF;
 }

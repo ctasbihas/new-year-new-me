@@ -1,0 +1,37 @@
+/* My Plans */
+.plan-section {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.plan-section > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.plan {
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.plan:hover {
+  box-shadow: 5px 5px 10px gray;
+}
+.plan img {
+  height: 90px;
+}
+.plan-name {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0;
+}
+.plan-work {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+}

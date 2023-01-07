@@ -1,36 +1,52 @@
-.top-projects{
-    padding: 0 150px;
-}
-.e-commerce, .other-sites{
-    display: flex;
-    margin-bottom: 20px;
+.top-projects {
+  padding: 0 150px;
 }
 
+/* Hero section */
+.hero {
+  margin-bottom: 100px;
+}
+.hero-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.e-commerce,
+.other-sites {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Card */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  text-align: left;
+  margin: 5px 2px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
